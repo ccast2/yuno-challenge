@@ -1,0 +1,45 @@
+{
+  "weights": {
+    "AMOUNT_ANOMALY": 0.12,
+    "VELOCITY": 0.18,
+    "IMPOSSIBLE_TRAVEL": 0.15,
+    "MANILA_PATTERN": 0.10,
+    "NIGHT_OWL": 0.07,
+    "DEVICE_ANOMALY": 0.10,
+    "CURRENCY_MISMATCH": 0.05,
+    "MERCHANT_SWITCHING": 0.05,
+    "BIN_REPUTATION": 0.08,
+    "NEW_ACCOUNT_HIGH_VALUE": 0.10
+  },
+  "thresholds": {
+    "medium": 30,
+    "high": 60,
+    "critical": 80
+  },
+  "high_risk_bins": [
+    "411111",
+    "424242",
+    "555555",
+    "601100",
+    "378282"
+  ],
+  "temp_email_domains": [
+    "tempmail.com",
+    "throwaway.io",
+    "guerrillamail.com",
+    "mailinator.com",
+    "10minutemail.com"
+  ],
+  "country_currency": {
+    "US": "USD",
+    "PH": "PHP",
+    "ID": "IDR",
+    "VN": "VND",
+    "CO": "COP",
+    "MX": "MXN",
+    "GB": "GBP",
+    "JP": "JPY",
+    "BR": "BRL",
+    "AR": "ARS"
+  }
+}
